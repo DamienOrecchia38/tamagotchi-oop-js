@@ -16,7 +16,17 @@ class Tamagotchi {
 
     cry() {
       this.foodInTummy -= 1;
-      console.log(this.name + " a " + this.foodInTummy + " points de nourriture. WHAOOOOOOOO ! ! !");
+      console.log(this.name + " OUIN OUIN OUIIIN ! ! !");
+    }
+
+    puke() {
+      this.foodInTummy -= 1;
+      console.log(this.foodInTummy +  " AHHHHHHH ! ! !");
+    }
+
+    yawn() {
+      this.restedness -= 1;
+      console.log(this.name + " a " + this.restedness +  " a actuellement points. AHHHHHHH ! ! !");
     }
 }
 
