@@ -1,5 +1,3 @@
-console.log('tamagotchi file is loaded');
-
 class Tamagotchi {
 
   foodInTummy;
@@ -26,12 +24,12 @@ class Tamagotchi {
 
     yawn() {
       this.restedness -= 1;
-      console.log(this.name + " a " + this.restedness +  " a actuellement points. AHHHHHHH ! ! !");
+      console.log(this.name + " a actuellement " + this.restedness +  " points. AHHHHHHH ! ! !");
     }
 }
 
-const tamagotchi_one = new Tamagotchi("Lucas", "Serpent à sonette");
-const tamagotchi_two = new Tamagotchi("Katchweene", "Pokemon");
+const tamagotchi_one = new Tamagotchi("Lucas", "serpent à sonette");
+const tamagotchi_two = new Tamagotchi("Katchween", "pokemon");
 
 tamagotchi_one.cry();
 tamagotchi_two.cry();
